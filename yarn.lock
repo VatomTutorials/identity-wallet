@@ -554,6 +554,20 @@
     "@typescript-eslint/types" "5.59.11"
     eslint-visitor-keys "^3.3.0"
 
+"@vatom/identity-sdk@^0.0.8":
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/@vatom/identity-sdk/-/identity-sdk-0.0.8.tgz#9c568a267924dfea3bb29a37d8f6a9f90f9abf8c"
+  integrity sha512-vQsA4RSpLNks2K5ZCpE0VSSkliQzbhMj+DjKp5mY1huPAN6wmpULR003/yr4xkiMTzPltINh4SLNKH1kurU4VQ==
+  dependencies:
+    jwt-decode "3.1.2"
+
+"@vatom/wallet-sdk@^0.0.9":
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/@vatom/wallet-sdk/-/wallet-sdk-0.0.9.tgz#7708df9f94371d97baa6a0109d36ff139d6eea0a"
+  integrity sha512-hsBDHbx8lns5YagRcuhSnH6y5WJ3RmMe4CRVb66o54M5ALocFXL4lh1qlb5Q7dUvHPZskDMCT80bE+BWAVDA6g==
+  dependencies:
+    jwt-decode "3.1.2"
+
 "@vitejs/plugin-react@^4.0.0":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@vitejs/plugin-react/-/plugin-react-4.0.0.tgz#46d1c37c507447d10467be1c111595174555ef28"
@@ -1148,6 +1162,11 @@ json5@^2.2.2:
   version "2.2.3"
   resolved "https://registry.yarnpkg.com/json5/-/json5-2.2.3.tgz#78cd6f1a19bdc12b73db5ad0c61efd66c1e29283"
   integrity sha512-XmOWe7eyHYH14cLdVPoyg+GOH3rYX++KpzrylJwSW98t3Nk+U8XOl8FWKOgwtzdb8lXGf6zYwDUzeHMWfxasyg==
+
+jwt-decode@3.1.2:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/jwt-decode/-/jwt-decode-3.1.2.tgz#3fb319f3675a2df0c2895c8f5e9fa4b67b04ed59"
+  integrity sha512-UfpWE/VZn0iP50d8cz9NrZLM9lSWhcJ+0Gt/nm4by88UL+J1SiKN8/5dkjMmbEzwL2CAe+67GsegCbIKtbp75A==
 
 levn@^0.4.1:
   version "0.4.1"
