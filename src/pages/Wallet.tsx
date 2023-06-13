@@ -16,9 +16,7 @@ const WalletPage = () => {
 	//
   return (
  		<div className="page_wrap_gp">
-			<div className="page_torso_gp">
-				<img src={appLogo} alt="app logo" />
-			</div>
+			<div className="page_torso_gp" ref={divRef}/>
 			<div className="page_nav_footer_gp">
 				<div>
 					<br/>
